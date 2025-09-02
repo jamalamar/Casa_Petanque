@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Casa Petanque - Your Perfect Getaway",
+    "description": "Experience the charm of Casa Petanque, a beautiful vacation home perfect for relaxation and enjoying the traditional game of petanque."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "faqs": "FAQs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Casa Petanque",
+    "subtitle": "Your perfect Mediterranean retreat",
+    "description": "Discover the perfect blend of traditional charm and modern comfort in our beautiful vacation home",
+    "cta": "Book Your Stay",
+    "cta_secondary": "Learn More"
+  },
+  "features": {
+    "title": "Why Choose Casa Petanque",
+    "feature1": {
+      "title": "Authentic Petanque Court",
+      "description": "Professional-grade petanque court for endless entertainment"
+    },
+    "feature2": {
+      "title": "Stunning Location",
+      "description": "Nestled in a peaceful setting with breathtaking views"
+    },
+    "feature3": {
+      "title": "Modern Amenities",
+      "description": "Fully equipped with everything you need for a comfortable stay"
+    },
+    "feature4": {
+      "title": "Local Experience",
+      "description": "Immerse yourself in the local culture and traditions"
+    }
+  },
+  "about": {
+    "title": "About Casa Petanque",
+    "subtitle": "A Story of Passion and Hospitality",
+    "paragraph1": "Casa Petanque was born from a love of the traditional French game and the desire to create a unique vacation experience. Our property combines the authentic charm of Mediterranean living with modern comforts.",
+    "paragraph2": "Located in a picturesque setting, our home offers the perfect escape from the hustle and bustle of everyday life. Whether you're an avid petanque player or simply looking for a peaceful retreat, Casa Petanque provides an unforgettable experience.",
+    "paragraph3": "We take pride in maintaining our professional-grade petanque court and ensuring every detail of your stay is perfect. From the fully equipped kitchen to the comfortable bedrooms, every aspect has been carefully considered.",
+    "values": {
+      "title": "Our Values",
+      "hospitality": "Warm Hospitality",
+      "authenticity": "Authentic Experience",
+      "quality": "Quality & Comfort",
+      "sustainability": "Sustainable Tourism"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about your stay",
+    "questions": {
+      "q1": {
+        "question": "What is petanque?",
+        "answer": "Petanque is a traditional French game similar to boules or bocce. Players throw metal balls as close as possible to a small wooden ball called a cochonnet. Our professional court is perfect for both beginners and experienced players."
+      },
+      "q2": {
+        "question": "How many people can stay at Casa Petanque?",
+        "answer": "Casa Petanque comfortably accommodates up to 8 guests with 4 bedrooms and 3 bathrooms. We also have additional space for children upon request."
+      },
+      "q3": {
+        "question": "What amenities are included?",
+        "answer": "The house includes a fully equipped kitchen, Wi-Fi, air conditioning, heating, washing machine, outdoor BBQ area, swimming pool, and of course, our professional petanque court. All linens and towels are provided."
+      },
+      "q4": {
+        "question": "Is the property suitable for children?",
+        "answer": "Yes! Casa Petanque is family-friendly. We have a secure pool area, outdoor games, and plenty of space for children to play safely. High chairs and cribs are available upon request."
+      },
+      "q5": {
+        "question": "What is the check-in/check-out time?",
+        "answer": "Check-in is from 3:00 PM and check-out is by 11:00 AM. We can accommodate early check-in or late check-out when available - please contact us to arrange."
+      },
+      "q6": {
+        "question": "Are pets allowed?",
+        "answer": "We welcome well-behaved pets! Please let us know in advance if you plan to bring your furry friend. A small additional cleaning fee may apply."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number (optional)",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you for your message! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "hours": "Available Hours",
+      "hours_detail": "Monday - Sunday: 9:00 AM - 8:00 PM"
+    }
+  },
+  "footer": {
+    "tagline": "Your Mediterranean Petanque Paradise",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe for exclusive offers and updates",
+      "placeholder": "Your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© 2024 Casa Petanque. All rights reserved."
+  }
+}

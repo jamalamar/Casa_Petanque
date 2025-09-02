@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Casa Petanque - Tu Escapada Perfecta",
+    "description": "Experimenta el encanto de Casa Petanque, una hermosa casa de vacaciones perfecta para relajarse y disfrutar del tradicional juego de petanca."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "faqs": "Preguntas Frecuentes",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Bienvenido a Casa Petanque",
+    "subtitle": "Tu refugio mediterráneo perfecto",
+    "description": "Descubre la mezcla perfecta de encanto tradicional y confort moderno en nuestra hermosa casa de vacaciones",
+    "cta": "Reserva Tu Estancia",
+    "cta_secondary": "Saber Más"
+  },
+  "features": {
+    "title": "Por Qué Elegir Casa Petanque",
+    "feature1": {
+      "title": "Pista de Petanca Auténtica",
+      "description": "Pista de petanca de calidad profesional para entretenimiento sin fin"
+    },
+    "feature2": {
+      "title": "Ubicación Impresionante",
+      "description": "Ubicada en un entorno tranquilo con vistas impresionantes"
+    },
+    "feature3": {
+      "title": "Comodidades Modernas",
+      "description": "Totalmente equipada con todo lo necesario para una estancia cómoda"
+    },
+    "feature4": {
+      "title": "Experiencia Local",
+      "description": "Sumérgete en la cultura y tradiciones locales"
+    }
+  },
+  "about": {
+    "title": "Sobre Casa Petanque",
+    "subtitle": "Una Historia de Pasión y Hospitalidad",
+    "paragraph1": "Casa Petanque nació del amor por el juego tradicional francés y el deseo de crear una experiencia vacacional única. Nuestra propiedad combina el auténtico encanto de la vida mediterránea con las comodidades modernas.",
+    "paragraph2": "Ubicada en un entorno pintoresco, nuestra casa ofrece el escape perfecto del ajetreo de la vida cotidiana. Ya seas un jugador ávido de petanca o simplemente busques un retiro tranquilo, Casa Petanque proporciona una experiencia inolvidable.",
+    "paragraph3": "Nos enorgullecemos de mantener nuestra pista de petanca de calidad profesional y asegurar que cada detalle de tu estancia sea perfecto. Desde la cocina totalmente equipada hasta las cómodas habitaciones, cada aspecto ha sido cuidadosamente considerado.",
+    "values": {
+      "title": "Nuestros Valores",
+      "hospitality": "Hospitalidad Cálida",
+      "authenticity": "Experiencia Auténtica",
+      "quality": "Calidad y Confort",
+      "sustainability": "Turismo Sostenible"
+    }
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre tu estancia",
+    "questions": {
+      "q1": {
+        "question": "¿Qué es la petanca?",
+        "answer": "La petanca es un juego tradicional francés similar a las bolas o bochas. Los jugadores lanzan bolas de metal lo más cerca posible de una pequeña bola de madera llamada cochonnet. Nuestra pista profesional es perfecta tanto para principiantes como para jugadores experimentados."
+      },
+      "q2": {
+        "question": "¿Cuántas personas pueden alojarse en Casa Petanque?",
+        "answer": "Casa Petanque aloja cómodamente hasta 8 huéspedes con 4 dormitorios y 3 baños. También tenemos espacio adicional para niños bajo petición."
+      },
+      "q3": {
+        "question": "¿Qué comodidades están incluidas?",
+        "answer": "La casa incluye cocina totalmente equipada, Wi-Fi, aire acondicionado, calefacción, lavadora, zona de barbacoa exterior, piscina y, por supuesto, nuestra pista de petanca profesional. Se proporcionan todas las sábanas y toallas."
+      },
+      "q4": {
+        "question": "¿Es la propiedad adecuada para niños?",
+        "answer": "¡Sí! Casa Petanque es apta para familias. Tenemos una zona de piscina segura, juegos al aire libre y mucho espacio para que los niños jueguen con seguridad. Tronas y cunas disponibles bajo petición."
+      },
+      "q5": {
+        "question": "¿Cuál es el horario de entrada/salida?",
+        "answer": "La entrada es a partir de las 15:00 y la salida es hasta las 11:00. Podemos acomodar entrada temprana o salida tardía cuando esté disponible - por favor contáctanos para organizar."
+      },
+      "q6": {
+        "question": "¿Se permiten mascotas?",
+        "answer": "¡Damos la bienvenida a mascotas bien educadas! Por favor, avísanos con antelación si planeas traer a tu amigo peludo. Puede aplicarse una pequeña tarifa de limpieza adicional."
+      }
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Nos encantaría saber de ti",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Dirección de Email",
+      "phone": "Número de Teléfono (opcional)",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Gracias por tu mensaje! Te responderemos pronto.",
+      "error": "Algo salió mal. Por favor, inténtalo de nuevo."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "email": "Email",
+      "phone": "Teléfono",
+      "address": "Dirección",
+      "hours": "Horario Disponible",
+      "hours_detail": "Lunes - Domingo: 9:00 AM - 8:00 PM"
+    }
+  },
+  "footer": {
+    "tagline": "Tu Paraíso Mediterráneo de Petanca",
+    "quickLinks": "Enlaces Rápidos",
+    "followUs": "Síguenos",
+    "newsletter": {
+      "title": "Boletín",
+      "description": "Suscríbete para ofertas exclusivas y actualizaciones",
+      "placeholder": "Tu email",
+      "button": "Suscribirse"
+    },
+    "copyright": "© 2024 Casa Petanque. Todos los derechos reservados."
+  }
+}

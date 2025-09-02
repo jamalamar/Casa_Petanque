@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Casa Pétanque - Votre Escapade Parfaite",
+    "description": "Découvrez le charme de Casa Pétanque, une magnifique maison de vacances parfaite pour se détendre et profiter du jeu traditionnel de pétanque."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "faqs": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bienvenue à Casa Pétanque",
+    "subtitle": "Votre refuge méditerranéen parfait",
+    "description": "Découvrez le mélange parfait de charme traditionnel et de confort moderne dans notre belle maison de vacances",
+    "cta": "Réservez Votre Séjour",
+    "cta_secondary": "En Savoir Plus"
+  },
+  "features": {
+    "title": "Pourquoi Choisir Casa Pétanque",
+    "feature1": {
+      "title": "Terrain de Pétanque Authentique",
+      "description": "Terrain de pétanque de qualité professionnelle pour un divertissement sans fin"
+    },
+    "feature2": {
+      "title": "Emplacement Magnifique",
+      "description": "Nichée dans un cadre paisible avec des vues à couper le souffle"
+    },
+    "feature3": {
+      "title": "Équipements Modernes",
+      "description": "Entièrement équipée avec tout ce dont vous avez besoin pour un séjour confortable"
+    },
+    "feature4": {
+      "title": "Expérience Locale",
+      "description": "Immergez-vous dans la culture et les traditions locales"
+    }
+  },
+  "about": {
+    "title": "À Propos de Casa Pétanque",
+    "subtitle": "Une Histoire de Passion et d'Hospitalité",
+    "paragraph1": "Casa Pétanque est née de l'amour du jeu traditionnel français et du désir de créer une expérience de vacances unique. Notre propriété combine le charme authentique de la vie méditerranéenne avec le confort moderne.",
+    "paragraph2": "Située dans un cadre pittoresque, notre maison offre l'échappatoire parfaite à l'agitation de la vie quotidienne. Que vous soyez un joueur de pétanque passionné ou simplement à la recherche d'une retraite paisible, Casa Pétanque offre une expérience inoubliable.",
+    "paragraph3": "Nous sommes fiers de maintenir notre terrain de pétanque de qualité professionnelle et de veiller à ce que chaque détail de votre séjour soit parfait. De la cuisine entièrement équipée aux chambres confortables, chaque aspect a été soigneusement considéré.",
+    "values": {
+      "title": "Nos Valeurs",
+      "hospitality": "Hospitalité Chaleureuse",
+      "authenticity": "Expérience Authentique",
+      "quality": "Qualité et Confort",
+      "sustainability": "Tourisme Durable"
+    }
+  },
+  "faqs": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Tout ce que vous devez savoir sur votre séjour",
+    "questions": {
+      "q1": {
+        "question": "Qu'est-ce que la pétanque?",
+        "answer": "La pétanque est un jeu traditionnel français où les joueurs lancent des boules métalliques aussi près que possible d'une petite boule en bois appelée cochonnet. Notre terrain professionnel est parfait pour les débutants comme pour les joueurs expérimentés."
+      },
+      "q2": {
+        "question": "Combien de personnes peuvent séjourner à Casa Pétanque?",
+        "answer": "Casa Pétanque accueille confortablement jusqu'à 8 personnes avec 4 chambres et 3 salles de bain. Nous disposons également d'un espace supplémentaire pour les enfants sur demande."
+      },
+      "q3": {
+        "question": "Quels équipements sont inclus?",
+        "answer": "La maison comprend une cuisine entièrement équipée, Wi-Fi, climatisation, chauffage, lave-linge, espace barbecue extérieur, piscine et bien sûr, notre terrain de pétanque professionnel. Tous les draps et serviettes sont fournis."
+      },
+      "q4": {
+        "question": "La propriété est-elle adaptée aux enfants?",
+        "answer": "Oui! Casa Pétanque est adaptée aux familles. Nous avons une zone de piscine sécurisée, des jeux extérieurs et beaucoup d'espace pour que les enfants jouent en toute sécurité. Chaises hautes et lits bébé disponibles sur demande."
+      },
+      "q5": {
+        "question": "Quelles sont les heures d'arrivée/départ?",
+        "answer": "L'arrivée se fait à partir de 15h00 et le départ avant 11h00. Nous pouvons accommoder une arrivée anticipée ou un départ tardif selon disponibilité - veuillez nous contacter pour organiser."
+      },
+      "q6": {
+        "question": "Les animaux sont-ils autorisés?",
+        "answer": "Nous accueillons les animaux bien élevés! Veuillez nous informer à l'avance si vous prévoyez d'amener votre compagnon à quatre pattes. Des frais de nettoyage supplémentaires peuvent s'appliquer."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous serions ravis de vous entendre",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone (optionnel)",
+      "message": "Votre Message",
+      "submit": "Envoyer le Message",
+      "success": "Merci pour votre message! Nous vous répondrons bientôt.",
+      "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "email": "Email",
+      "phone": "Téléphone",
+      "address": "Adresse",
+      "hours": "Heures Disponibles",
+      "hours_detail": "Lundi - Dimanche: 9h00 - 20h00"
+    }
+  },
+  "footer": {
+    "tagline": "Votre Paradis Méditerranéen de Pétanque",
+    "quickLinks": "Liens Rapides",
+    "followUs": "Suivez-nous",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Abonnez-vous pour des offres exclusives et des mises à jour",
+      "placeholder": "Votre email",
+      "button": "S'abonner"
+    },
+    "copyright": "© 2024 Casa Pétanque. Tous droits réservés."
+  }
+}
