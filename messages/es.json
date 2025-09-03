@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Casa Petanque - Tu Escapada Perfecta",
-    "description": "Experimenta el encanto de Casa Petanque, una hermosa casa de vacaciones perfecta para relajarse y disfrutar del tradicional juego de petanca."
+    "title": "Casa Petanque - Casa de Lujo en Avándaro, Valle de Bravo",
+    "description": "Descubre Casa Petanque en Avándaro, Valle de Bravo. Renta vacacional de lujo con 4 recámaras, 5.5 baños, capacidad para 16+ huéspedes. Refugio perfecto junto al lago con cancha de petanca, vistas a la montaña y comodidades modernas."
   },
   "navigation": {
     "home": "Inicio",
@@ -11,16 +11,25 @@
   },
   "hero": {
     "title": "Bienvenido a Casa Petanque",
-    "subtitle": "Tu refugio mediterráneo perfecto",
+    "subtitle": "Tu refugio perfecto en Valle de Bravo",
     "description": "Descubre la mezcla perfecta de encanto tradicional y confort moderno en nuestra hermosa casa de vacaciones",
     "cta": "Reserva Tu Estancia",
     "cta_secondary": "Saber Más"
   },
   "features": {
     "title": "Por Qué Elegir Casa Petanque",
+    "bedrooms": "4 Habitaciones",
+    "bedrooms_desc": "Amplias y cómodas",
+    "guests": "16+ Huéspedes",
+    "guests_desc": "8 camas, espacioso para grupos",
+    "bathrooms": "Entretenimiento",
+    "bathrooms_desc": "Jacuzzi, sauna, sala de juegos",
+    "location": "Paraíso en el Jardín",
+    "location_desc": "Rodeado de bosques",
     "feature1": {
       "title": "Pista de Petanca Auténtica",
-      "description": "Pista de petanca de calidad profesional para entretenimiento sin fin"
+      "description": "Pista de petanca de calidad profesional para entretenimiento sin fin",
+      "description2": "Disfruta de la mezcla perfecta de encanto mexicano y lujo moderno en Valle de Bravo. Con impresionantes vistas al lago, paisajes montañosos y una cancha de petanca para entretenimiento, crea recuerdos inolvidables con familia y amigos en este entorno mágico."
     },
     "feature2": {
       "title": "Ubicación Impresionante",
@@ -33,6 +42,14 @@
     "feature4": {
       "title": "Experiencia Local",
       "description": "Sumérgete en la cultura y tradiciones locales"
+    },
+    "gallery": {
+      "title": "Descubre el Espacio",
+      "subtitle": "Cada rincón cuenta una historia de comodidad y elegancia"
+    },
+    "cta": {
+      "title": "¿Listo para experimentar Casa Pétanque?",
+      "subtitle": "Reserva tu estancia hoy y sumérgete en la mezcla perfecta de lujo y tradición"
     }
   },
   "about": {
@@ -59,23 +76,31 @@
       },
       "q2": {
         "question": "¿Cuántas personas pueden alojarse en Casa Petanque?",
-        "answer": "Casa Petanque aloja cómodamente hasta 8 huéspedes con 4 dormitorios y 3 baños. También tenemos espacio adicional para niños bajo petición."
+        "answer": "Casa Petanque aloja cómodamente 16+ huéspedes con 4 recámaras (8 camas) y 5.5 baños. Perfecta para familias grandes o reuniones de grupo."
       },
       "q3": {
         "question": "¿Qué comodidades están incluidas?",
-        "answer": "La casa incluye cocina totalmente equipada, Wi-Fi, aire acondicionado, calefacción, lavadora, zona de barbacoa exterior, piscina y, por supuesto, nuestra pista de petanca profesional. Se proporcionan todas las sábanas y toallas."
+        "answer": "La casa cuenta con cocina totalmente equipada, Wi-Fi, aire acondicionado, jacuzzi, sauna de vapor, sala de juegos con air hockey y mesa de billar, ping pong, cancha de bádminton, cancha de petanca, hamacas, juegos de mesa, amplio jardín, estacionamiento para 8 autos y guardián en el lugar. Se proporcionan todas las sábanas y toallas."
       },
       "q4": {
         "question": "¿Es la propiedad adecuada para niños?",
         "answer": "¡Sí! Casa Petanque es apta para familias. Tenemos una zona de piscina segura, juegos al aire libre y mucho espacio para que los niños jueguen con seguridad. Tronas y cunas disponibles bajo petición."
       },
       "q5": {
-        "question": "¿Cuál es el horario de entrada/salida?",
-        "answer": "La entrada es a partir de las 15:00 y la salida es hasta las 11:00. Podemos acomodar entrada temprana o salida tardía cuando esté disponible - por favor contáctanos para organizar."
+        "question": "¿Dónde se encuentra Casa Petanque?",
+        "answer": "Casa Petanque está ubicada en Avándaro, Valle de Bravo, Estado de México. Este encantador pueblo junto al lago está a unas 2 horas de la Ciudad de México, ofreciendo un escape perfecto con hermosas vistas al lago, paisajes montañosos y clima agradable todo el año."
       },
       "q6": {
-        "question": "¿Se permiten mascotas?",
-        "answer": "¡Damos la bienvenida a mascotas bien educadas! Por favor, avísanos con antelación si planeas traer a tu amigo peludo. Puede aplicarse una pequeña tarifa de limpieza adicional."
+        "question": "¿Qué no está incluido?",
+        "answer": "La propiedad no tiene aire acondicionado (aunque hay calefacción disponible) y no hay cámaras de seguridad exteriores en la propiedad. Sin embargo, el clima templado de Valle de Bravo rara vez requiere aire acondicionado, y la casa tiene calefacción para las noches más frescas."
+      },
+      "q7": {
+        "question": "¿Qué se proporciona en las recámaras y baños?",
+        "answer": "Todas las recámaras incluyen ropa de cama, cortinas oscuras, perchas y plancha. Los baños están equipados con secadores de pelo, champú, agua caliente, toallas, jabón y papel higiénico. También proporcionamos cunas para familias con bebés y tenemos protectores de chimenea para la seguridad infantil."
+      },
+      "q8": {
+        "question": "¿Puedo trabajar remotamente desde la propiedad?",
+        "answer": "¡Absolutamente! La casa cuenta con WiFi de alta velocidad en toda la propiedad y un espacio de trabajo dedicado en una habitación privada con puerta, perfecto para videollamadas y trabajo concentrado. El entorno tranquilo del jardín proporciona un ambiente inspirador para el trabajo remoto."
       }
     }
   },
@@ -110,6 +135,6 @@
       "placeholder": "Tu email",
       "button": "Suscribirse"
     },
-    "copyright": "© 2024 Casa Petanque. Todos los derechos reservados."
+    "copyright": "© 2025 Casa Petanque. Todos los derechos reservados."
   }
 }

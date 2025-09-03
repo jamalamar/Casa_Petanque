@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Casa Pétanque - Votre Escapade Parfaite",
-    "description": "Découvrez le charme de Casa Pétanque, une magnifique maison de vacances parfaite pour se détendre et profiter du jeu traditionnel de pétanque."
+    "title": "Casa Pétanque - Maison de Luxe à Avándaro, Valle de Bravo",
+    "description": "Découvrez Casa Pétanque à Avándaro, Valle de Bravo. Location de vacances de luxe avec 4 chambres, 5,5 salles de bain, capacité de 16+ invités. Retraite parfaite au bord du lac avec terrain de pétanque, vue sur les montagnes et équipements modernes."
   },
   "navigation": {
     "home": "Accueil",
@@ -11,16 +11,25 @@
   },
   "hero": {
     "title": "Bienvenue à Casa Pétanque",
-    "subtitle": "Votre refuge méditerranéen parfait",
+    "subtitle": "Votre refuge parfait à Valle de Bravo",
     "description": "Découvrez le mélange parfait de charme traditionnel et de confort moderne dans notre belle maison de vacances",
     "cta": "Réservez Votre Séjour",
     "cta_secondary": "En Savoir Plus"
   },
   "features": {
     "title": "Pourquoi Choisir Casa Pétanque",
+    "bedrooms": "4 Chambres",
+    "bedrooms_desc": "Spacieuses et confortables",
+    "guests": "16+ Invités",
+    "guests_desc": "8 lits, spacieux pour les groupes",
+    "bathrooms": "Divertissement",
+    "bathrooms_desc": "Jacuzzi, sauna, salle de jeux",
+    "location": "Paradis du Jardin",
+    "location_desc": "Entouré de bois",
     "feature1": {
       "title": "Terrain de Pétanque Authentique",
-      "description": "Terrain de pétanque de qualité professionnelle pour un divertissement sans fin"
+      "description": "Terrain de pétanque de qualité professionnelle pour un divertissement sans fin",
+      "description2": "Profitez du mélange parfait de charme mexicain et de luxe moderne à Valle de Bravo. Avec une vue imprenable sur le lac, des paysages montagneux et un terrain de pétanque pour le divertissement, créez des souvenirs inoubliables avec famille et amis dans ce cadre magique."
     },
     "feature2": {
       "title": "Emplacement Magnifique",
@@ -33,6 +42,14 @@
     "feature4": {
       "title": "Expérience Locale",
       "description": "Immergez-vous dans la culture et les traditions locales"
+    },
+    "gallery": {
+      "title": "Découvrez l'Espace",
+      "subtitle": "Chaque coin raconte une histoire de confort et d'élégance"
+    },
+    "cta": {
+      "title": "Prêt à découvrir Casa Pétanque?",
+      "subtitle": "Réservez votre séjour aujourd'hui et plongez dans le mélange parfait de luxe et de tradition"
     }
   },
   "about": {
@@ -59,23 +76,31 @@
       },
       "q2": {
         "question": "Combien de personnes peuvent séjourner à Casa Pétanque?",
-        "answer": "Casa Pétanque accueille confortablement jusqu'à 8 personnes avec 4 chambres et 3 salles de bain. Nous disposons également d'un espace supplémentaire pour les enfants sur demande."
+        "answer": "Casa Pétanque accueille confortablement 16+ invités avec 4 chambres (8 lits) et 5,5 salles de bain. Parfait pour les grandes familles ou les réunions de groupe."
       },
       "q3": {
         "question": "Quels équipements sont inclus?",
-        "answer": "La maison comprend une cuisine entièrement équipée, Wi-Fi, climatisation, chauffage, lave-linge, espace barbecue extérieur, piscine et bien sûr, notre terrain de pétanque professionnel. Tous les draps et serviettes sont fournis."
+        "answer": "La maison dispose d'une cuisine entièrement équipée, Wi-Fi, climatisation, jacuzzi, sauna à vapeur, salle de jeux avec air hockey et billard, ping-pong, terrain de badminton, terrain de pétanque, hamacs, jeux de société, grand jardin, parking pour 8 voitures et gardien sur place. Tous les draps et serviettes sont fournis."
       },
       "q4": {
         "question": "La propriété est-elle adaptée aux enfants?",
         "answer": "Oui! Casa Pétanque est adaptée aux familles. Nous avons une zone de piscine sécurisée, des jeux extérieurs et beaucoup d'espace pour que les enfants jouent en toute sécurité. Chaises hautes et lits bébé disponibles sur demande."
       },
       "q5": {
-        "question": "Quelles sont les heures d'arrivée/départ?",
-        "answer": "L'arrivée se fait à partir de 15h00 et le départ avant 11h00. Nous pouvons accommoder une arrivée anticipée ou un départ tardif selon disponibilité - veuillez nous contacter pour organiser."
+        "question": "Où se trouve Casa Pétanque?",
+        "answer": "Casa Pétanque est située à Avándaro, Valle de Bravo, Estado de México. Cette charmante ville au bord du lac est à environ 2 heures de Mexico, offrant une évasion parfaite avec de belles vues sur le lac, des paysages montagneux et un climat agréable toute l'année."
       },
       "q6": {
-        "question": "Les animaux sont-ils autorisés?",
-        "answer": "Nous accueillons les animaux bien élevés! Veuillez nous informer à l'avance si vous prévoyez d'amener votre compagnon à quatre pattes. Des frais de nettoyage supplémentaires peuvent s'appliquer."
+        "question": "Qu'est-ce qui n'est pas inclus?",
+        "answer": "La propriété ne dispose pas de climatisation (bien que le chauffage soit disponible) et il n'y a pas de caméras de sécurité extérieures sur la propriété. Cependant, le climat doux de Valle de Bravo nécessite rarement la climatisation, et la maison dispose du chauffage pour les soirées plus fraîches."
+      },
+      "q7": {
+        "question": "Qu'est-ce qui est fourni dans les chambres et salles de bain?",
+        "answer": "Toutes les chambres comprennent des draps, des stores occultants, des cintres et un fer à repasser. Les salles de bain sont équipées de sèche-cheveux, shampoing, eau chaude, serviettes, savon et papier toilette. Nous fournissons également des berceaux pour les familles avec bébés et avons des protections de cheminée pour la sécurité des enfants."
+      },
+      "q8": {
+        "question": "Puis-je travailler à distance depuis la propriété?",
+        "answer": "Absolument! La maison dispose du WiFi haute vitesse dans toute la propriété et d'un espace de travail dédié dans une pièce privée avec porte, parfait pour les appels vidéo et le travail concentré. Le cadre paisible du jardin offre un environnement inspirant pour le travail à distance."
       }
     }
   },
@@ -110,6 +135,6 @@
       "placeholder": "Votre email",
       "button": "S'abonner"
     },
-    "copyright": "© 2024 Casa Pétanque. Tous droits réservés."
+    "copyright": "© 2025 Casa Pétanque. Tous droits réservés."
   }
 }

@@ -1,8 +1,11 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
+import Script from 'next/script';
 
 export default function ContactPage() {
   const t = useTranslations('contact');
@@ -18,7 +21,6 @@ export default function ContactPage() {
     e.preventDefault();
     setStatus('loading');
     
-    // Simulate form submission
     setTimeout(() => {
       setStatus('success');
       setFormData({ name: '', email: '', phone: '', message: '' });
@@ -34,152 +36,247 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="py-12 lg:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+    <>
+      <Script 
+        src="https://www.airbnb.com/embeddable/airbnb_jssdk"
+        strategy="lazyOnload"
+      />
+      <div className="min-h-screen pt-20">
+      {/* Hero Section */}
+      <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/casa_petanque10.jpeg"
+            alt="Contact Casa Petanque"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+        
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="relative z-10 text-center text-white minimal-container"
+        >
+          <h1 className="text-5xl md:text-6xl font-thin tracking-wide mb-4">
             {t('title')}
           </h1>
-          <p className="text-xl text-gray-600">{t('subtitle')}</p>
-        </div>
+          <p className="text-xl font-light opacity-90">
+            {t('subtitle')}
+          </p>
+        </motion.div>
+      </section>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <div className="bg-white rounded-lg shadow-sm p-8">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('form.name')}
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('form.email')}
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('form.phone')}
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('form.message')}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={5}
-                  required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
-              </div>
-
-              <button
-                type="submit"
-                disabled={status === 'loading'}
-                className="w-full px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {status === 'loading' ? '...' : t('form.submit')}
-              </button>
-
-              {status === 'success' && (
-                <div className="p-4 bg-green-50 text-green-800 rounded-lg">
-                  {t('form.success')}
+      {/* Contact Section */}
+      <section className="py-24 bg-white">
+        <div className="minimal-container">
+          {/* Top Row: Form and Map */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            {/* Contact Form - Top Left */}
+            <motion.div 
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-2xl font-thin mb-8 text-gray-900">Send us a message</h2>
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    placeholder={t('form.name')}
+                    className="w-full px-0 py-3 border-0 border-b border-gray-300 focus:border-gray-900 focus:outline-none font-light text-gray-900 placeholder-gray-400 transition-colors"
+                  />
                 </div>
-              )}
 
-              {status === 'error' && (
-                <div className="p-4 bg-red-50 text-red-800 rounded-lg">
-                  {t('form.error')}
+                <div>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    placeholder={t('form.email')}
+                    className="w-full px-0 py-3 border-0 border-b border-gray-300 focus:border-gray-900 focus:outline-none font-light text-gray-900 placeholder-gray-400 transition-colors"
+                  />
                 </div>
-              )}
-            </form>
+
+                <div>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    placeholder={t('form.phone')}
+                    className="w-full px-0 py-3 border-0 border-b border-gray-300 focus:border-gray-900 focus:outline-none font-light text-gray-900 placeholder-gray-400 transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows={4}
+                    required
+                    placeholder={t('form.message')}
+                    className="w-full px-0 py-3 border-0 border-b border-gray-300 focus:border-gray-900 focus:outline-none font-light text-gray-900 placeholder-gray-400 transition-colors resize-none"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  className="inline-flex items-center gap-2 px-8 py-3 bg-gray-900 text-white font-light tracking-wider hover:bg-gray-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {status === 'loading' ? 'Sending...' : t('form.submit')}
+                  <Send className="w-4 h-4" />
+                </button>
+
+                {status === 'success' && (
+                  <motion.div 
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="p-4 bg-green-50 text-green-800 font-light"
+                  >
+                    {t('form.success')}
+                  </motion.div>
+                )}
+
+                {status === 'error' && (
+                  <motion.div 
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="p-4 bg-red-50 text-red-800 font-light"
+                  >
+                    {t('form.error')}
+                  </motion.div>
+                )}
+              </form>
+            </motion.div>
+
+            {/* Map - Top Right */}
+            <motion.div 
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-2xl font-thin mb-8 text-gray-900">Find Us in Avándaro</h2>
+              <div className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-md border border-gray-100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30168.89587349565!2d-100.15500000000001!3d19.195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd6d3c6e3b39b3%3A0x7c9f3c2c8a5a5a5a!2sAv%C3%A1ndaro%2C%20Valle%20de%20Bravo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1635000000000!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="grayscale"
+                />
+              </div>
+            </motion.div>
           </div>
 
-          {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="bg-gray-50 rounded-lg p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-6">
+          {/* Bottom Row: Airbnb Embed and Contact Info */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Airbnb Embed - Bottom Left */}
+            <motion.div 
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-2xl font-thin mb-4 text-gray-900">Book Your Stay</h2>
+              <p className="text-sm text-gray-600 mb-6">Check availability and book instantly through Airbnb</p>
+              <div className="bg-gray-50 rounded-lg p-6">
+                <div 
+                  className="airbnb-embed-frame" 
+                  data-id="22483082" 
+                  data-view="home" 
+                  data-hide-price="true" 
+                  style={{ width: '100%', height: '300px', margin: 'auto' }}
+                >
+                  <a href="https://www.airbnb.com/rooms/22483082?guests=1&adults=1&s=66&source=embed_widget">
+                    View On Airbnb
+                  </a>
+                  <a href="https://www.airbnb.com/rooms/22483082?guests=1&adults=1&s=66&source=embed_widget" rel="nofollow">
+                    Valle de Bravo · ★4.83 · 4 bedrooms · 8 beds · 5.5 baths
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Contact Information - Bottom Right */}
+            <motion.div 
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-2xl font-thin mb-8 text-gray-900">
                 {t('info.title')}
               </h2>
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <Mail className="h-5 w-5 text-blue-600 mt-1" />
+                  <Mail className="h-5 w-5 text-gray-400 mt-1" />
                   <div>
-                    <p className="font-medium text-gray-900">{t('info.email')}</p>
-                    <p className="text-gray-600">contact@casapetanque.com</p>
+                    <p className="font-light text-gray-900 mb-1">{t('info.email')}</p>
+                    <p className="text-gray-600 font-light">contact@casapetanque.com</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Phone className="h-5 w-5 text-blue-600 mt-1" />
+                  <Phone className="h-5 w-5 text-gray-400 mt-1" />
                   <div>
-                    <p className="font-medium text-gray-900">{t('info.phone')}</p>
-                    <p className="text-gray-600">+33 6 12 34 56 78</p>
+                    <p className="font-light text-gray-900 mb-1">{t('info.phone')}</p>
+                    <p className="text-gray-600 font-light">+52 55 1234 5678</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <MapPin className="h-5 w-5 text-blue-600 mt-1" />
+                  <MapPin className="h-5 w-5 text-gray-400 mt-1" />
                   <div>
-                    <p className="font-medium text-gray-900">{t('info.address')}</p>
-                    <p className="text-gray-600">
-                      123 Rue de la Pétanque<br />
-                      13000 Marseille, France
+                    <p className="font-light text-gray-900 mb-1">{t('info.address')}</p>
+                    <p className="text-gray-600 font-light">
+                      Valle de Bravo<br />
+                      Estado de México, Mexico
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <Clock className="h-5 w-5 text-blue-600 mt-1" />
+                  <Clock className="h-5 w-5 text-gray-400 mt-1" />
                   <div>
-                    <p className="font-medium text-gray-900">{t('info.hours')}</p>
-                    <p className="text-gray-600">{t('info.hours_detail')}</p>
+                    <p className="font-light text-gray-900 mb-1">{t('info.hours')}</p>
+                    <p className="text-gray-600 font-light">{t('info.hours_detail')}</p>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            {/* Map placeholder */}
-            <div className="bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg h-64 flex items-center justify-center">
-              <p className="text-white text-xl font-semibold">Map Location</p>
-            </div>
+                <div className="mt-8 pt-8 border-t border-gray-200">
+                  <p className="text-sm text-gray-600 font-light">
+                    • 24/7 On-site guardian assistance<br />
+                    • Self check-in available<br />
+                    • Pet-friendly property<br />
+                    • Long-term stays welcome (28+ days)
+                  </p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
+    </>
   );
 }

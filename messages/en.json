@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Casa Petanque - Your Perfect Getaway",
-    "description": "Experience the charm of Casa Petanque, a beautiful vacation home perfect for relaxation and enjoying the traditional game of petanque."
+    "title": "Casa Petanque - Luxury Vacation Home in Avándaro, Valle de Bravo",
+    "description": "Experience Casa Petanque in Avándaro, Valle de Bravo. Luxury vacation rental with 4 bedrooms, 5.5 baths, accommodates 16+ guests. Perfect lakeside retreat with pétanque court, mountain views, and modern amenities."
   },
   "navigation": {
     "home": "Home",
@@ -11,16 +11,25 @@
   },
   "hero": {
     "title": "Welcome to Casa Petanque",
-    "subtitle": "Your perfect Mediterranean retreat",
-    "description": "Discover the perfect blend of traditional charm and modern comfort in our beautiful vacation home",
+    "subtitle": "Luxury retreat with hot tub, sauna & game room in Valle de Bravo",
+    "description": "Discover the perfect blend of luxury and nature. Brand new house with jacuzzi, sauna, game room, and endless entertainment. Pet-friendly, long-term stays welcome.",
     "cta": "Book Your Stay",
     "cta_secondary": "Learn More"
   },
   "features": {
     "title": "Why Choose Casa Petanque",
+    "bedrooms": "4 Bedrooms",
+    "bedrooms_desc": "Spacious and comfortable",
+    "guests": "16+ Guests",
+    "guests_desc": "8 beds, spacious for groups",
+    "bathrooms": "Entertainment",
+    "bathrooms_desc": "Jacuzzi, sauna, game room",
+    "location": "Garden Paradise",
+    "location_desc": "Surrounded by woods",
     "feature1": {
       "title": "Authentic Petanque Court",
-      "description": "Professional-grade petanque court for endless entertainment"
+      "description": "Professional-grade petanque court for endless entertainment",
+      "description2": "This brand new house offers endless entertainment with a private hot tub, steam sauna, game room with air hockey and pool tables, ping pong, badminton court, pétanque court, HDTV with Netflix/Prime/Hulu, and board games. Enjoy the fully fenced private backyard with BBQ grill, outdoor kitchen, fire pit, outdoor dining area, and hammocks. Features include wood-burning fireplace, dedicated workspace, washer/dryer, and parking for 8 cars. Pet-friendly and perfect for long-term stays!"
     },
     "feature2": {
       "title": "Stunning Location",
@@ -33,14 +42,22 @@
     "feature4": {
       "title": "Local Experience",
       "description": "Immerse yourself in the local culture and traditions"
+    },
+    "gallery": {
+      "title": "Discover the Space",
+      "subtitle": "Every corner tells a story of comfort and elegance"
+    },
+    "cta": {
+      "title": "Ready to Experience Casa Pétanque?",
+      "subtitle": "Book your stay today and immerse yourself in the perfect blend of luxury and tradition"
     }
   },
   "about": {
     "title": "About Casa Petanque",
     "subtitle": "A Story of Passion and Hospitality",
-    "paragraph1": "Casa Petanque was born from a love of the traditional French game and the desire to create a unique vacation experience. Our property combines the authentic charm of Mediterranean living with modern comforts.",
-    "paragraph2": "Located in a picturesque setting, our home offers the perfect escape from the hustle and bustle of everyday life. Whether you're an avid petanque player or simply looking for a peaceful retreat, Casa Petanque provides an unforgettable experience.",
-    "paragraph3": "We take pride in maintaining our professional-grade petanque court and ensuring every detail of your stay is perfect. From the fully equipped kitchen to the comfortable bedrooms, every aspect has been carefully considered.",
+    "paragraph1": "Casa Petanque is a beautiful brand new house with a spacious garden surrounded by woods. This fully equipped luxury retreat offers the perfect blend of modern amenities and natural beauty, creating an unforgettable vacation experience in Valle de Bravo.",
+    "paragraph2": "With 4 bedrooms, 5.5 bathrooms, and accommodations for 16+ guests, our property features exceptional entertainment including a private hot tub, steam sauna, game room with air hockey and pool tables, ping pong, badminton court, pétanque court, and HDTV with streaming services. The fully fenced private backyard offers a BBQ grill, outdoor kitchen, fire pit, outdoor dining area, and hammocks for ultimate relaxation.",
+    "paragraph3": "Our property offers complete comfort with a fully equipped kitchen (refrigerator, microwave, stove, oven, coffee maker, cooking basics, dishes and silverware), dedicated workspace with WiFi, wood-burning fireplace, washer and free dryer, and all essentials including towels, bed sheets, toiletries, and hangers. A guardian is available 24/7 to assist you, and maid service can be arranged. We welcome pets, allow smoking in designated areas, and accommodate long-term stays of 28+ days with self check-in available.",
     "values": {
       "title": "Our Values",
       "hospitality": "Warm Hospitality",
@@ -59,23 +76,31 @@
       },
       "q2": {
         "question": "How many people can stay at Casa Petanque?",
-        "answer": "Casa Petanque comfortably accommodates up to 8 guests with 4 bedrooms and 3 bathrooms. We also have additional space for children upon request."
+        "answer": "Casa Petanque comfortably accommodates 16+ guests with 4 bedrooms (8 beds) and 5.5 bathrooms. Perfect for large families or group gatherings."
       },
       "q3": {
         "question": "What amenities are included?",
-        "answer": "The house includes a fully equipped kitchen, Wi-Fi, air conditioning, heating, washing machine, outdoor BBQ area, swimming pool, and of course, our professional petanque court. All linens and towels are provided."
+        "answer": "The house features a fully equipped kitchen with all appliances and cooking basics, Wi-Fi, dedicated workspace, HDTV with Netflix/Prime/Hulu, DVD player, jacuzzi, steam sauna, game room with air hockey and pool tables, ping pong, badminton court, petanque court, board games, wood-burning fireplace, washer/dryer, private garden with BBQ grill and outdoor kitchen, fire pit, outdoor dining area, hammocks, parking for 8 cars, and 24/7 on-site staff. All essentials provided including linens, towels, toiletries, and kitchen basics."
       },
       "q4": {
-        "question": "Is the property suitable for children?",
-        "answer": "Yes! Casa Petanque is family-friendly. We have a secure pool area, outdoor games, and plenty of space for children to play safely. High chairs and cribs are available upon request."
+        "question": "Is the property suitable for families and pets?",
+        "answer": "Yes! Casa Petanque is family-friendly with cribs, fireplace guards, and a fully fenced private backyard. Pets are welcome! We also allow smoking in designated areas and offer long-term stays of 28+ days. Self check-in is available with 24/7 building staff to assist you."
       },
       "q5": {
-        "question": "What is the check-in/check-out time?",
-        "answer": "Check-in is from 3:00 PM and check-out is by 11:00 AM. We can accommodate early check-in or late check-out when available - please contact us to arrange."
+        "question": "Where is Casa Petanque located?",
+        "answer": "Casa Petanque is located in Avándaro, Valle de Bravo, Estado de México. This charming lakeside town is about 2 hours from Mexico City, offering a perfect escape with beautiful lake views, mountain scenery, and year-round pleasant weather."
       },
       "q6": {
-        "question": "Are pets allowed?",
-        "answer": "We welcome well-behaved pets! Please let us know in advance if you plan to bring your furry friend. A small additional cleaning fee may apply."
+        "question": "What's not included?",
+        "answer": "The property does not have air conditioning (though heating is available) and there are no exterior security cameras on the property. However, the mild Valle de Bravo climate rarely requires AC, and the house has heating for cooler evenings."
+      },
+      "q7": {
+        "question": "What's provided in the bedrooms and bathrooms?",
+        "answer": "All bedrooms include bed linens, room-darkening shades, hangers, and an iron. Bathrooms are stocked with hair dryers, shampoo, hot water, towels, soap, and toilet paper. We also provide cribs for families with babies and have fireplace guards for child safety."
+      },
+      "q8": {
+        "question": "Can I work remotely from the property?",
+        "answer": "Absolutely! The house features high-speed WiFi throughout and a dedicated workspace in a private room with a door, perfect for video calls and focused work. The peaceful garden setting provides an inspiring environment for remote work."
       }
     }
   },
@@ -110,6 +135,6 @@
       "placeholder": "Your email",
       "button": "Subscribe"
     },
-    "copyright": "© 2024 Casa Petanque. All rights reserved."
+    "copyright": "© 2025 Casa Petanque. All rights reserved."
   }
 }
