@@ -6,6 +6,7 @@
   "navigation": {
     "home": "Inicio",
     "about": "Sobre Nosotros",
+    "gallery": "Galería",
     "faqs": "Preguntas Frecuentes",
     "contact": "Contacto"
   },
@@ -55,20 +56,39 @@
   "about": {
     "title": "Sobre Casa Petanque",
     "subtitle": "Una Historia de Pasión y Hospitalidad",
-    "paragraph1": "Casa Petanque nació del amor por el juego tradicional francés y el deseo de crear una experiencia vacacional única. Nuestra propiedad combina el auténtico encanto de la vida mediterránea con las comodidades modernas.",
-    "paragraph2": "Ubicada en un entorno pintoresco, nuestra casa ofrece el escape perfecto del ajetreo de la vida cotidiana. Ya seas un jugador ávido de petanca o simplemente busques un retiro tranquilo, Casa Petanque proporciona una experiencia inolvidable.",
-    "paragraph3": "Nos enorgullecemos de mantener nuestra pista de petanca de calidad profesional y asegurar que cada detalle de tu estancia sea perfecto. Desde la cocina totalmente equipada hasta las cómodas habitaciones, cada aspecto ha sido cuidadosamente considerado.",
+    "story": {
+      "title": "Nuestra Historia",
+      "paragraph1": "Casa Petanque comenzó como un sueño de crear un lugar especial de reunión donde familias y amigos pudieran desconectarse de la vida diaria y reconectarse entre sí. Nombrada en honor al querido juego francés de petanca, nuestra casa encarna el espíritu de tardes tranquilas, competencia amistosa y conversaciones significativas.",
+      "paragraph2": "Descubrimos este lugar mágico en Avándaro, rodeado de altos pinos y los sonidos pacíficos del bosque. La propiedad se sentía perfecta - lo suficientemente espaciosa para grandes reuniones pero lo suficientemente íntima para momentos tranquilos de reflexión. Diseñamos cuidadosamente cada espacio para fomentar tanto la unión como la privacidad.",
+      "paragraph3": "Hoy, Casa Petanque da la bienvenida a huéspedes que buscan experiencias auténticas en Valle de Bravo. Ya sea que estés aquí para la aventura, relajación o celebración, nuestra casa proporciona la base perfecta para crear recuerdos duraderos con las personas que más importan."
+    },
     "values": {
       "title": "Nuestros Valores",
+      "subtitle": "Cada detalle en Casa Petanque refleja nuestro compromiso con la excelencia y la hospitalidad auténtica",
       "hospitality": "Hospitalidad Cálida",
+      "hospitality_desc": "Recibiendo a cada huésped como familia",
       "authenticity": "Experiencia Auténtica",
+      "authenticity_desc": "Verdadera fusión mexicano-europea",
       "quality": "Calidad y Confort",
-      "sustainability": "Turismo Sostenible"
+      "quality_desc": "Comodidades y confort excepcionales",
+      "sustainability": "Turismo Sostenible",
+      "sustainability_desc": "Hospitalidad eco-consciente"
+    },
+    "experience": {
+      "title": "La Experiencia",
+      "paragraph1": "Despierta con el canto de los pájaros en el bosque circundante. Comienza tu día con café en el jardín, respirando el aire fresco de la montaña y planeando tus aventuras en Valle de Bravo - desde parapente y vela hasta explorar el encantador centro colonial.",
+      "paragraph2": "Las tardes en Casa Petanque son para el ocio - desafía a amigos a un juego en nuestra cancha profesional de petanca, disfruta la sala de juegos con billar y air hockey, o simplemente relájate en una hamaca bajo los árboles. Al caer la tarde, reúnanse alrededor de la fogata, sumérgete en el jacuzzi o relájate en el sauna de vapor.",
+      "paragraph3": "Valle de Bravo ofrece clima perfecto todo el año y actividades infinitas. A solo minutos de nuestro santuario en el bosque, encontrarás deportes acuáticos en el lago, senderos para caminar, restaurantes encantadores y mercados locales. Regresa a casa a tu refugio privado donde los únicos sonidos son el viento en los pinos y las risas desde la cancha de petanca."
     }
   },
   "faqs": {
     "title": "Preguntas Frecuentes",
     "subtitle": "Todo lo que necesitas saber sobre tu estancia",
+    "cta": {
+      "title": "¿Todavía tienes preguntas?",
+      "subtitle": "Estamos aquí para ayudar. No dudes en contactarnos en cualquier momento.",
+      "button": "Contáctanos"
+    },
     "questions": {
       "q1": {
         "question": "¿Qué es la petanca?",
@@ -123,6 +143,31 @@
       "address": "Dirección",
       "hours": "Horario Disponible",
       "hours_detail": "Lunes - Domingo: 9:00 AM - 8:00 PM"
+    },
+    "sections": {
+      "sendMessage": "Envíanos un mensaje",
+      "findUs": "Encuéntranos en Avándaro",
+      "bookStay": "Reserva tu Estancia",
+      "bookDescription": "Consulta disponibilidad y reserva instantáneamente a través de Airbnb",
+      "features": {
+        "guardian": "Asistencia de guardián 24/7 en el lugar",
+        "selfCheckin": "Auto check-in disponible",
+        "petFriendly": "Se aceptan mascotas",
+        "longStays": "Estancias largas bienvenidas (28+ días)"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Explora cada rincón de Casa Petanque",
+    "showcase": {
+      "title": "Muestra de la Propiedad",
+      "description": "Haz clic en cualquier imagen para verla en tamaño completo. Usa las flechas o desliza para navegar por la galería."
+    },
+    "cta": {
+      "title": "¿Listo para experimentarlo en persona?",
+      "subtitle": "Nada se compara con experimentar Casa Petanque de primera mano. Reserva tu estancia y crea recuerdos inolvidables.",
+      "button": "Reserva Tu Estancia"
     }
   },
   "footer": {

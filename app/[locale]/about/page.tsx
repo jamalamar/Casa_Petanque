@@ -9,10 +9,10 @@ export default function AboutPage() {
   const t = useTranslations('about');
 
   const values = [
-    { icon: Heart, label: t('values.hospitality'), description: 'Welcoming every guest like family' },
-    { icon: Star, label: t('values.authenticity'), description: 'True Provençal experience' },
-    { icon: Home, label: t('values.quality'), description: 'Exceptional comfort & amenities' },
-    { icon: Leaf, label: t('values.sustainability'), description: 'Eco-conscious hospitality' },
+    { icon: Heart, label: t('values.hospitality'), description: t('values.hospitality_desc') },
+    { icon: Star, label: t('values.authenticity'), description: t('values.authenticity_desc') },
+    { icon: Home, label: t('values.quality'), description: t('values.quality_desc') },
+    { icon: Leaf, label: t('values.sustainability'), description: t('values.sustainability_desc') },
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function AboutPage() {
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/casa_petanque7.jpeg"
+            src="/images/casa_petanque1.jpeg"
             alt="Casa Petanque Interior"
             fill
             className="object-cover"
@@ -54,11 +54,11 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl font-thin mb-6 text-gray-900">Our Story</h2>
+              <h2 className="text-3xl font-thin mb-6 text-gray-900">{t('story.title')}</h2>
               <div className="space-y-4 text-gray-600 font-light leading-relaxed">
-                <p>{t('paragraph1')}</p>
-                <p>{t('paragraph2')}</p>
-                <p>{t('paragraph3')}</p>
+                <p>{t('story.paragraph1')}</p>
+                <p>{t('story.paragraph2')}</p>
+                <p>{t('story.paragraph3')}</p>
               </div>
             </motion.div>
 
@@ -70,7 +70,7 @@ export default function AboutPage() {
               className="relative h-[500px]"
             >
               <Image
-                src="/images/casa_petanque8.jpeg"
+                src="/images/casa_petanque5.jpeg"
                 alt="Property view"
                 fill
                 className="object-cover"
@@ -94,7 +94,7 @@ export default function AboutPage() {
               {t('values.title')}
             </h2>
             <p className="text-gray-600 font-light max-w-2xl mx-auto">
-              Every detail at Casa Pétanque reflects our commitment to excellence and authentic hospitality
+              {t('values.subtitle')}
             </p>
           </motion.div>
 
@@ -131,7 +131,7 @@ export default function AboutPage() {
               className="relative h-[500px] order-2 lg:order-1"
             >
               <Image
-                src="/images/casa_petanque9.jpeg"
+                src="/images/casa_petanque24.jpeg"
                 alt="Outdoor dining"
                 fill
                 className="object-cover"
@@ -146,24 +146,12 @@ export default function AboutPage() {
               className="order-1 lg:order-2"
             >
               <h2 className="text-3xl font-thin mb-6 text-gray-900">
-                The Experience
+                {t('experience.title')}
               </h2>
               <div className="space-y-4 text-gray-600 font-light leading-relaxed">
-                <p>
-                  Wake up to stunning views of Lake Valle de Bravo, enjoy your morning coffee 
-                  on the terrace overlooking the mountains, and spend your days exploring the charming 
-                  town and enjoying water activities on the lake.
-                </p>
-                <p>
-                  In the evenings, gather around the pétanque court for friendly matches, 
-                  followed by dinner al fresco under the stars. This is the essence of 
-                  Casa Pétanque - where Mexican warmth meets European elegance.
-                </p>
-                <p>
-                  Our property offers the perfect balance of privacy and accessibility, 
-                  allowing you to retreat from the world while staying connected to the 
-                  vibrant culture and natural beauty of Valle de Bravo.
-                </p>
+                <p>{t('experience.paragraph1')}</p>
+                <p>{t('experience.paragraph2')}</p>
+                <p>{t('experience.paragraph3')}</p>
               </div>
             </motion.div>
           </div>

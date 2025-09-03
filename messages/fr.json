@@ -6,6 +6,7 @@
   "navigation": {
     "home": "Accueil",
     "about": "À Propos",
+    "gallery": "Galerie",
     "faqs": "FAQ",
     "contact": "Contact"
   },
@@ -55,20 +56,39 @@
   "about": {
     "title": "À Propos de Casa Pétanque",
     "subtitle": "Une Histoire de Passion et d'Hospitalité",
-    "paragraph1": "Casa Pétanque est née de l'amour du jeu traditionnel français et du désir de créer une expérience de vacances unique. Notre propriété combine le charme authentique de la vie méditerranéenne avec le confort moderne.",
-    "paragraph2": "Située dans un cadre pittoresque, notre maison offre l'échappatoire parfaite à l'agitation de la vie quotidienne. Que vous soyez un joueur de pétanque passionné ou simplement à la recherche d'une retraite paisible, Casa Pétanque offre une expérience inoubliable.",
-    "paragraph3": "Nous sommes fiers de maintenir notre terrain de pétanque de qualité professionnelle et de veiller à ce que chaque détail de votre séjour soit parfait. De la cuisine entièrement équipée aux chambres confortables, chaque aspect a été soigneusement considéré.",
+    "story": {
+      "title": "Notre Histoire",
+      "paragraph1": "Casa Pétanque a commencé comme un rêve de créer un lieu de rassemblement spécial où les familles et les amis pourraient se déconnecter de la vie quotidienne et se reconnecter les uns aux autres. Nommée d'après le jeu français bien-aimé de pétanque, notre maison incarne l'esprit des après-midi tranquilles, de la compétition amicale et des conversations significatives.",
+      "paragraph2": "Nous avons découvert cet endroit magique à Avándaro, entouré de grands pins et des sons paisibles de la forêt. La propriété semblait parfaite - assez spacieuse pour les grands rassemblements mais assez intime pour des moments calmes de réflexion. Nous avons soigneusement conçu chaque espace pour encourager à la fois la convivialité et l'intimité.",
+      "paragraph3": "Aujourd'hui, Casa Pétanque accueille des invités à la recherche d'expériences authentiques à Valle de Bravo. Que vous soyez ici pour l'aventure, la détente ou la célébration, notre maison offre la base parfaite pour créer des souvenirs durables avec les personnes qui comptent le plus."
+    },
     "values": {
       "title": "Nos Valeurs",
+      "subtitle": "Chaque détail à Casa Pétanque reflète notre engagement envers l'excellence et l'hospitalité authentique",
       "hospitality": "Hospitalité Chaleureuse",
+      "hospitality_desc": "Accueillant chaque invité comme une famille",
       "authenticity": "Expérience Authentique",
+      "authenticity_desc": "Véritable fusion mexicaine-européenne",
       "quality": "Qualité et Confort",
-      "sustainability": "Tourisme Durable"
+      "quality_desc": "Confort et commodités exceptionnels",
+      "sustainability": "Tourisme Durable",
+      "sustainability_desc": "Hospitalité éco-consciente"
+    },
+    "experience": {
+      "title": "L'Expérience",
+      "paragraph1": "Réveillez-vous au chant des oiseaux dans la forêt environnante. Commencez votre journée avec un café dans le jardin, en respirant l'air frais de la montagne et en planifiant vos aventures à Valle de Bravo - du parapente et de la voile à l'exploration du charmant centre colonial.",
+      "paragraph2": "Les après-midi à Casa Pétanque sont pour les loisirs - défiez vos amis à un jeu sur notre terrain de pétanque professionnel, profitez de la salle de jeux avec billard et air hockey, ou détendez-vous simplement dans un hamac sous les arbres. À la tombée du soir, rassemblez-vous autour du feu de camp, plongez dans le jacuzzi ou détendez-vous dans le sauna à vapeur.",
+      "paragraph3": "Valle de Bravo offre un climat parfait toute l'année et des activités infinies. À seulement quelques minutes de notre sanctuaire forestier, vous trouverez des sports nautiques sur le lac, des sentiers de randonnée, des restaurants charmants et des marchés locaux. Rentrez chez vous dans votre retraite privée où les seuls sons sont le vent dans les pins et les rires du terrain de pétanque."
     }
   },
   "faqs": {
     "title": "Questions Fréquemment Posées",
     "subtitle": "Tout ce que vous devez savoir sur votre séjour",
+    "cta": {
+      "title": "Vous avez encore des questions?",
+      "subtitle": "Nous sommes là pour vous aider. N'hésitez pas à nous contacter à tout moment.",
+      "button": "Contactez-nous"
+    },
     "questions": {
       "q1": {
         "question": "Qu'est-ce que la pétanque?",
@@ -123,6 +143,31 @@
       "address": "Adresse",
       "hours": "Heures Disponibles",
       "hours_detail": "Lundi - Dimanche: 9h00 - 20h00"
+    },
+    "sections": {
+      "sendMessage": "Envoyez-nous un message",
+      "findUs": "Trouvez-nous à Avándaro",
+      "bookStay": "Réservez votre Séjour",
+      "bookDescription": "Vérifiez la disponibilité et réservez instantanément via Airbnb",
+      "features": {
+        "guardian": "Assistance du gardien 24/7 sur place",
+        "selfCheckin": "Auto-enregistrement disponible",
+        "petFriendly": "Animaux acceptés",
+        "longStays": "Séjours longs bienvenus (28+ jours)"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Explorez chaque coin de Casa Pétanque",
+    "showcase": {
+      "title": "Vitrine de la Propriété",
+      "description": "Cliquez sur n'importe quelle image pour la voir en taille réelle. Utilisez les flèches ou glissez pour naviguer dans la galerie."
+    },
+    "cta": {
+      "title": "Prêt à l'expérimenter en personne?",
+      "subtitle": "Rien ne se compare à l'expérience de Casa Pétanque de première main. Réservez votre séjour et créez des souvenirs inoubliables.",
+      "button": "Réservez Votre Séjour"
     }
   },
   "footer": {

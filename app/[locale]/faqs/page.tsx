@@ -55,7 +55,7 @@ export default function FAQsPage() {
       <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/casa_petanque11.jpeg"
+            src="/images/casa_petanque27.jpeg"
             alt="Casa Petanque FAQs"
             fill
             className="object-cover"
@@ -135,16 +135,16 @@ export default function FAQsPage() {
             className="mt-24 text-center"
           >
             <h2 className="text-2xl font-thin text-gray-900 mb-4">
-              Still have questions?
+              {t('cta.title')}
             </h2>
             <p className="text-gray-600 font-light mb-8">
-              We're here to help. Feel free to reach out to us anytime.
+              {t('cta.subtitle')}
             </p>
             <a
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3 border border-gray-900 text-gray-900 font-light tracking-wider hover:bg-gray-900 hover:text-white transition-all duration-300"
             >
-              Contact Us
+              {t('cta.button')}
             </a>
           </motion.div>
         </div>

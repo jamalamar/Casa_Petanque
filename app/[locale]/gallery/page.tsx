@@ -4,82 +4,56 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import ImageGallery from '@/components/ImageGallery';
+import { useState, useEffect } from 'react';
 
 export default function GalleryPage() {
-  const t = useTranslations();
+  const t = useTranslations('gallery');
+  const [galleryImages, setGalleryImages] = useState<Array<{src: string, alt: string}>>([]);
 
-  const galleryImages = [
-    {
-      src: '/images/casa_petanque13.jpeg',
-      alt: 'Casa Petanque Exterior',
-      caption: 'Main entrance and garden view'
-    },
-    {
-      src: '/images/casa_petanque14.jpeg',
-      alt: 'Living Room',
-      caption: 'Spacious living area with modern furnishings'
-    },
-    {
-      src: '/images/casa_petanque15.jpeg',
-      alt: 'Kitchen and Dining',
-      caption: 'Fully equipped kitchen and dining space'
-    },
-    {
-      src: '/images/casa_petanque16.jpeg',
-      alt: 'Master Bedroom',
-      caption: 'Master bedroom with garden views'
-    },
-    {
-      src: '/images/casa_petanque17.jpeg',
-      alt: 'Pétanque Court',
-      caption: 'Professional-grade pétanque court'
-    },
-    {
-      src: '/images/casa_petanque18.jpeg',
-      alt: 'Pool Area',
-      caption: 'Private pool with sun loungers'
-    },
-    {
-      src: '/images/casa_petanque19.jpeg',
-      alt: 'Outdoor Terrace',
-      caption: 'Al fresco dining area'
-    },
-    {
-      src: '/images/casa_petanque20.jpeg',
-      alt: 'Garden Path',
-      caption: 'Beautiful garden pathways'
-    },
-    {
-      src: '/images/casa_petanque21.jpeg',
-      alt: 'Evening View',
-      caption: 'Casa Pétanque at sunset'
-    },
-    {
-      src: '/images/casa_petanque22.jpeg',
-      alt: 'Bedroom 2',
-      caption: 'Comfortable guest bedroom'
-    },
-    {
-      src: '/images/casa_petanque23.jpeg',
-      alt: 'Bedroom 3',
-      caption: 'Bright and airy bedroom'
-    },
-    {
-      src: '/images/casa_petanque24.jpeg',
-      alt: 'Bathroom',
-      caption: 'Modern bathroom with luxury fixtures'
-    },
-    {
-      src: '/images/casa_petanque25.jpeg',
-      alt: 'Lake View',
-      caption: 'Stunning views of Valle de Bravo lake'
-    },
-    {
-      src: '/images/casa_petanque26.jpeg',
-      alt: 'Mountain View',
-      caption: 'Breathtaking mountain scenery'
-    },
-  ];
+  useEffect(() => {
+    // Fisher-Yates shuffle algorithm
+    const shuffleArray = <T,>(array: T[]): T[] => {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    };
+
+    const images = [
+      { src: '/images/casa_petanque1.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque2.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque3.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque4.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque5.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque6.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque7.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque8.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque9.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque10.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque11.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque12.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque13.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque14.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque15.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque16.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque17.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque18.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque19.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque20.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque21.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque22.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque23.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque24.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque25.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque26.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque27.jpeg', alt: 'Casa Petanque' },
+      { src: '/images/casa_petanque28.jpeg', alt: 'Casa Petanque' },
+    ];
+    
+    setGalleryImages(shuffleArray(images));
+  }, []);
 
   return (
     <div className="min-h-screen pt-20">
@@ -102,10 +76,10 @@ export default function GalleryPage() {
           className="relative z-10 text-center text-white minimal-container"
         >
           <h1 className="text-5xl md:text-6xl font-thin tracking-wide mb-4">
-            Gallery
+            {t('title')}
           </h1>
           <p className="text-xl font-light opacity-90">
-            Explore every corner of Casa Pétanque
+            {t('subtitle')}
           </p>
         </motion.div>
       </section>
@@ -121,14 +95,22 @@ export default function GalleryPage() {
             className="mb-12"
           >
             <h2 className="text-3xl font-thin text-gray-900 mb-4">
-              Property Showcase
+              {t('showcase.title')}
             </h2>
             <p className="text-gray-600 font-light max-w-3xl">
-              Click on any image to view it in full size. Use arrow keys or swipe to navigate through the gallery.
+              {t('showcase.description')}
             </p>
           </motion.div>
 
-          <ImageGallery images={galleryImages} />
+          {galleryImages.length > 0 ? (
+            <ImageGallery images={galleryImages} />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[...Array(9)].map((_, i) => (
+                <div key={i} className="aspect-[4/3] bg-gray-100 animate-pulse rounded-lg" />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
@@ -142,16 +124,16 @@ export default function GalleryPage() {
           className="minimal-container text-center"
         >
           <h3 className="text-2xl font-thin text-gray-900 mb-4">
-            Ready to experience it in person?
+            {t('cta.title')}
           </h3>
           <p className="text-gray-600 font-light mb-8 max-w-2xl mx-auto">
-            Nothing compares to experiencing Casa Pétanque firsthand. Book your stay and create unforgettable memories.
+            {t('cta.subtitle')}
           </p>
           <a
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-3 bg-gray-900 text-white font-light tracking-wider hover:bg-gray-800 transition-colors"
           >
-            Book Your Stay
+            {t('cta.button')}
           </a>
         </motion.div>
       </section>

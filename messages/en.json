@@ -6,6 +6,7 @@
   "navigation": {
     "home": "Home",
     "about": "About Us",
+    "gallery": "Gallery",
     "faqs": "FAQs",
     "contact": "Contact"
   },
@@ -55,20 +56,39 @@
   "about": {
     "title": "About Casa Petanque",
     "subtitle": "A Story of Passion and Hospitality",
-    "paragraph1": "Casa Petanque is a beautiful brand new house with a spacious garden surrounded by woods. This fully equipped luxury retreat offers the perfect blend of modern amenities and natural beauty, creating an unforgettable vacation experience in Valle de Bravo.",
-    "paragraph2": "With 4 bedrooms, 5.5 bathrooms, and accommodations for 16+ guests, our property features exceptional entertainment including a private hot tub, steam sauna, game room with air hockey and pool tables, ping pong, badminton court, pétanque court, and HDTV with streaming services. The fully fenced private backyard offers a BBQ grill, outdoor kitchen, fire pit, outdoor dining area, and hammocks for ultimate relaxation.",
-    "paragraph3": "Our property offers complete comfort with a fully equipped kitchen (refrigerator, microwave, stove, oven, coffee maker, cooking basics, dishes and silverware), dedicated workspace with WiFi, wood-burning fireplace, washer and free dryer, and all essentials including towels, bed sheets, toiletries, and hangers. A guardian is available 24/7 to assist you, and maid service can be arranged. We welcome pets, allow smoking in designated areas, and accommodate long-term stays of 28+ days with self check-in available.",
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Casa Petanque began as a dream to create a special gathering place where families and friends could disconnect from daily life and reconnect with each other. Named after the beloved French game of pétanque, our home embodies the spirit of leisurely afternoons, friendly competition, and meaningful conversations.",
+      "paragraph2": "We discovered this magical spot in Avándaro, surrounded by towering pine trees and the peaceful sounds of the forest. The property felt perfect - spacious enough for large gatherings yet intimate enough for quiet moments of reflection. We carefully designed every space to encourage both togetherness and privacy.",
+      "paragraph3": "Today, Casa Petanque welcomes guests seeking authentic experiences in Valle de Bravo. Whether you're here for adventure, relaxation, or celebration, our home provides the perfect base for creating lasting memories with the people who matter most."
+    },
     "values": {
       "title": "Our Values",
+      "subtitle": "Every detail at Casa Pétanque reflects our commitment to excellence and authentic hospitality",
       "hospitality": "Warm Hospitality",
+      "hospitality_desc": "Welcoming every guest like family",
       "authenticity": "Authentic Experience",
+      "authenticity_desc": "True Mexican-European fusion",
       "quality": "Quality & Comfort",
-      "sustainability": "Sustainable Tourism"
+      "quality_desc": "Exceptional comfort & amenities",
+      "sustainability": "Sustainable Tourism",
+      "sustainability_desc": "Eco-conscious hospitality"
+    },
+    "experience": {
+      "title": "The Experience",
+      "paragraph1": "Wake up to the sounds of birds singing in the surrounding forest. Start your day with coffee in the garden, breathing in the fresh mountain air and planning your adventures in Valle de Bravo - from paragliding and sailing to exploring the charming colonial town center.",
+      "paragraph2": "Afternoons at Casa Petanque are for leisure - challenge friends to a game on our professional pétanque court, enjoy the game room with pool and air hockey, or simply relax in a hammock under the trees. As evening falls, gather around the fire pit, soak in the hot tub, or unwind in the steam sauna.",
+      "paragraph3": "Valle de Bravo offers year-round perfect weather and endless activities. Just minutes from our forest sanctuary, you'll find water sports on the lake, hiking trails, charming restaurants, and local markets. Return home to your private retreat where the only sounds are the wind in the pines and laughter from the pétanque court."
     }
   },
   "faqs": {
     "title": "Frequently Asked Questions",
     "subtitle": "Everything you need to know about your stay",
+    "cta": {
+      "title": "Still have questions?",
+      "subtitle": "We're here to help. Feel free to reach out to us anytime.",
+      "button": "Contact Us"
+    },
     "questions": {
       "q1": {
         "question": "What is petanque?",
@@ -123,6 +143,31 @@
       "address": "Address",
       "hours": "Available Hours",
       "hours_detail": "Monday - Sunday: 9:00 AM - 8:00 PM"
+    },
+    "sections": {
+      "sendMessage": "Send us a message",
+      "findUs": "Find Us in Avándaro",
+      "bookStay": "Book Your Stay",
+      "bookDescription": "Check availability and book instantly through Airbnb",
+      "features": {
+        "guardian": "24/7 On-site guardian assistance",
+        "selfCheckin": "Self check-in available",
+        "petFriendly": "Pet-friendly property",
+        "longStays": "Long-term stays welcome (28+ days)"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Explore every corner of Casa Pétanque",
+    "showcase": {
+      "title": "Property Showcase",
+      "description": "Click on any image to view it in full size. Use arrow keys or swipe to navigate through the gallery."
+    },
+    "cta": {
+      "title": "Ready to experience it in person?",
+      "subtitle": "Nothing compares to experiencing Casa Pétanque firsthand. Book your stay and create unforgettable memories.",
+      "button": "Book Your Stay"
     }
   },
   "footer": {

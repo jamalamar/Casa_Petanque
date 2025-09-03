@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
@@ -81,7 +81,7 @@ export default function ContactPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-2xl font-thin mb-8 text-gray-900">Send us a message</h2>
+              <h2 className="text-2xl font-thin mb-8 text-gray-900">{t('sections.sendMessage')}</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <input
@@ -172,7 +172,7 @@ export default function ContactPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-2xl font-thin mb-8 text-gray-900">Find Us in Avándaro</h2>
+              <h2 className="text-2xl font-thin mb-8 text-gray-900">{t('sections.findUs')}</h2>
               <div className="relative h-[500px] w-full rounded-lg overflow-hidden shadow-md border border-gray-100">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30168.89587349565!2d-100.15500000000001!3d19.195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd6d3c6e3b39b3%3A0x7c9f3c2c8a5a5a5a!2sAv%C3%A1ndaro%2C%20Valle%20de%20Bravo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1635000000000!5m2!1sen!2sus"
@@ -182,7 +182,7 @@ export default function ContactPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  className="grayscale"
+                  className=""
                 />
               </div>
             </motion.div>
@@ -197,9 +197,9 @@ export default function ContactPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-2xl font-thin mb-4 text-gray-900">Book Your Stay</h2>
-              <p className="text-sm text-gray-600 mb-6">Check availability and book instantly through Airbnb</p>
-              <div className="bg-gray-50 rounded-lg p-6">
+              <h2 className="text-2xl font-thin mb-4 text-gray-900">{t('sections.bookStay')}</h2>
+              <p className="text-sm text-gray-600 mb-6">{t('sections.bookDescription')}</p>
+              <div>
                 <div 
                   className="airbnb-embed-frame" 
                   data-id="22483082" 
@@ -265,10 +265,10 @@ export default function ContactPage() {
 
                 <div className="mt-8 pt-8 border-t border-gray-200">
                   <p className="text-sm text-gray-600 font-light">
-                    • 24/7 On-site guardian assistance<br />
-                    • Self check-in available<br />
-                    • Pet-friendly property<br />
-                    • Long-term stays welcome (28+ days)
+                    • {t('sections.features.guardian')}<br />
+                    • {t('sections.features.selfCheckin')}<br />
+                    • {t('sections.features.petFriendly')}<br />
+                    • {t('sections.features.longStays')}
                   </p>
                 </div>
               </div>

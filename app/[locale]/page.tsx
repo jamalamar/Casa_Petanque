@@ -33,10 +33,10 @@ export default function HomePage() {
   ];
 
   const images = [
-    '/images/casa_petanque1.jpeg',
-    '/images/casa_petanque2.jpeg',
-    '/images/casa_petanque3.jpeg',
-    '/images/casa_petanque4.jpeg',
+    '/images/casa_petanque10.jpeg',
+    '/images/casa_petanque21.jpeg',
+    '/images/casa_petanque23.jpeg',
+    '/images/casa_petanque28.jpeg',
   ];
 
   return (
@@ -118,7 +118,7 @@ export default function HomePage() {
               className="relative h-[500px]"
             >
               <Image
-                src="/images/casa_petanque5.jpeg"
+                src="/images/casa_petanque1.jpeg"
                 alt="Living space"
                 fill
                 className="object-cover"
@@ -181,7 +181,7 @@ export default function HomePage() {
               className="relative h-[500px] order-2 lg:order-1"
             >
               <Image
-                src="/images/casa_petanque6.jpeg"
+                src="/images/casa_petanque27.jpeg"
                 alt="Petanque court"
                 fill
                 className="object-cover"

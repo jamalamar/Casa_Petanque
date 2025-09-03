@@ -27,7 +27,7 @@ export default function MinimalHeader() {
   const navigation = [
     { name: t('home'), href: '/' },
     { name: t('about'), href: '/about' },
-    { name: 'Gallery', href: '/gallery' },
+    { name: t('gallery'), href: '/gallery' },
     { name: t('faqs'), href: '/faqs' },
     { name: t('contact'), href: '/contact' },
   ];
