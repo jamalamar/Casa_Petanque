@@ -15,19 +15,38 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'metadata' });
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://casapetanque.com';
+
   return {
     title: t('title'),
     description: t('description'),
+    manifest: '/manifest.json',
     icons: {
       icon: '/favicon.svg',
       shortcut: '/favicon.svg',
-      apple: '/favicon.svg',
+      apple: '/apple-touch-icon.png',
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
       locale: locale,
       type: 'website',
+      url: baseUrl,
+      siteName: 'Casa Pétanque',
+      images: [
+        {
+          url: `${baseUrl}/images/home_hero.jpeg`,
+          width: 1200,
+          height: 630,
+          alt: 'Casa Pétanque - Luxury Vacation Rental in Valle de Bravo',
+        }
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+      images: [`${baseUrl}/images/home_hero.jpeg`],
     },
     alternates: {
       languages: Object.fromEntries(
