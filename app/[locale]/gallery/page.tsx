@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import ImageGallery from '@/components/ImageGallery';
@@ -129,12 +130,12 @@ export default function GalleryPage() {
           <p className="text-gray-600 font-light mb-8 max-w-2xl mx-auto">
             {t('cta.subtitle')}
           </p>
-          <a
+          <Link
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-3 bg-gray-900 text-white font-light tracking-wider hover:bg-gray-800 transition-colors"
           >
             {t('cta.button')}
-          </a>
+          </Link>
         </motion.div>
       </section>
     </div>

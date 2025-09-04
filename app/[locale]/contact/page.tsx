@@ -21,11 +21,29 @@ export default function ContactPage() {
     e.preventDefault();
     setStatus('loading');
     
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '' });
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          ...formData,
+        }).toString(),
+      });
+
+      if (response.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', phone: '', message: '' });
+        setTimeout(() => setStatus('idle'), 5000);
+      } else {
+        setStatus('error');
+        setTimeout(() => setStatus('idle'), 5000);
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setStatus('error');
       setTimeout(() => setStatus('idle'), 5000);
-    }, 1000);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -82,7 +100,14 @@ export default function ContactPage() {
               viewport={{ once: true }}
             >
               <h2 className="text-2xl font-thin mb-8 text-gray-900">{t('sections.sendMessage')}</h2>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form 
+                name="contact" 
+                method="POST" 
+                data-netlify="true"
+                onSubmit={handleSubmit} 
+                className="space-y-6"
+              >
+                <input type="hidden" name="form-name" value="contact" />
                 <div>
                   <input
                     type="text"

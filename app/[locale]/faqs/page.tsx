@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -140,12 +141,12 @@ export default function FAQsPage() {
             <p className="text-gray-600 font-light mb-8">
               {t('cta.subtitle')}
             </p>
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3 border border-gray-900 text-gray-900 font-light tracking-wider hover:bg-gray-900 hover:text-white transition-all duration-300"
             >
               {t('cta.button')}
-            </a>
+            </Link>
           </motion.div>
         </div>
       </section>
