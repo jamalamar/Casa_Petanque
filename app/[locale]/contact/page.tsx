@@ -257,7 +257,9 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-gray-400 mt-1" />
                   <div>
                     <p className="font-light text-gray-900 mb-1">{t('info.email')}</p>
-                    <p className="text-gray-600 font-light">contact@casapetanque.com</p>
+                    <a href="mailto:casapetanque@gmail.com" className="text-gray-600 font-light hover:text-gray-900 transition-colors">
+                      casapetanque@gmail.com
+                    </a>
                   </div>
                 </div>
                 
@@ -265,7 +267,9 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-gray-400 mt-1" />
                   <div>
                     <p className="font-light text-gray-900 mb-1">{t('info.phone')}</p>
-                    <p className="text-gray-600 font-light">+52 55 1234 5678</p>
+                    <a href="tel:+525559659571" className="text-gray-600 font-light hover:text-gray-900 transition-colors">
+                      +52 55 5965 9571
+                    </a>
                   </div>
                 </div>
 

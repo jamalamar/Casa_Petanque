@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Heart } from 'lucide-react';
+import { Heart, MessageCircle } from 'lucide-react';
 
 export default function MinimalFooter() {
   const t = useTranslations();
@@ -51,10 +51,25 @@ export default function MinimalFooter() {
               {t('contact.info.title')}
             </h4>
             <div className="space-y-2 text-sm text-gray-600 font-light">
-              <p>contact@casapetanque.com</p>
-              <p>+52 55 1234 5678</p>
+              <a href="mailto:casapetanque@gmail.com" className="block hover:text-gray-900 transition-colors">
+                casapetanque@gmail.com
+              </a>
+              <a href="tel:+525559659571" className="block hover:text-gray-900 transition-colors">
+                +52 55 5965 9571
+              </a>
               <p className="pt-2">Valle de Bravo</p>
               <p>Estado de México, Mexico</p>
+              
+              {/* WhatsApp Button */}
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B525559659571&text=Hola%2C+vengo+de+tu+sitio+web+y+quisiera+quedarme+en+Casa+Petanque%21&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors"
+              >
+                <MessageCircle className="w-4 h-4" fill="currentColor" />
+                <span className="text-sm font-light">WhatsApp</span>
+              </a>
             </div>
           </div>
         </div>
