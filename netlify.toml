@@ -5,6 +5,12 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
+[functions]
+  node_bundler = "esbuild"
+  
+[build.environment]
+  NEXT_SHARP_PATH = "/opt/build/repo/node_modules/sharp"
+
 # Redirects for internationalization
 [[redirects]]
   from = "/"
