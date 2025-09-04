@@ -2,16 +2,8 @@
   command = "npm run build"
   publish = ".next"
 
-[build.environment]
-  # Next.js runtime version
-  NEXT_RUNTIME = "nodejs20.x"
-
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-# Enable Next.js Image Optimization
-[functions]
-  included_files = ["public/**", ".next/**"]
 
 # Redirects for internationalization
 [[redirects]]
